@@ -1,0 +1,102 @@
+package calcular.hon.calcular_areas_junit_app;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+/**
+ * Unit test for simple App.
+ */	
+
+	public class AppTest {
+	
+		double CalcularAreas ;
+		int circulo;
+		int cuadrado;
+		int rectangulo;
+		int triangulo;
+		
+		public static  calculararea;
+
+		@Test
+	    public void testAreaCirculo() {
+	        double radio = 5;
+	        double expected = Math.PI * radio * radio;
+	        assertEquals(expected, AreaCalculator.areaCirculo(radio), 0.0001);
+	    	calcularArea = new App();
+}
+		@Test
+	    public void testAreaCirculo() {
+	        double radio = 8;
+	        double expected = Math.PI * radio * radio;
+	        assertEquals(expected, AreaCalculator.areaCirculo(radio), 0.0001);
+	    	calcularArea = new App();
+		}
+		@Test
+	    public void testAreaCirculo() {
+	        double radio = 10;
+	        double expected = Math.PI * radio * radio;
+	        assertEquals(expected, AreaCalculator.areaCirculo(radio), 0.0001);
+	        
+	        @Test
+	    public void testAreacuadrado() {
+	        double lado1 =4 ;
+	        double lado2=4;
+	        double expected = lado1 * lado2;
+	        assertEquals(expected, AreaCalculator.areacuadrado(lado1,lado2), 0.0001);
+	        }
+	        @Test
+		    public void testAreacuadrado() {
+		        double lado1 =8 ;
+		        double lado2=8;
+		        double expected = lado1 * lado2;
+		        assertEquals(expected, AreaCalculator.areacuadrado(lado1,lado2), 0.0001);	
+	        }
+	        @Test
+		    public void testAreacuadrado() {
+		        double lado1 =7 ;
+		        double lado2=4;
+		        double expected = lado1 * lado2;
+		        assertEquals(expected, AreaCalculator.areacuadrado(lado1,lado2), 0.0001);	
+	        }
+	        @Test
+		    public void testArearectangular() {
+		        double base =4 ;
+		        double altura=4;
+		        double expected = base * altura;
+		        assertEquals(expected, AreaCalculator.arearectangular(base,altura), 0.0001);	
+		}
+	        @Test
+		    public void testArearectangular() {
+		        double base =8 ;
+		        double altura=10;
+		        double expected = base * altura;
+		        assertEquals(expected, AreaCalculator.arearectangular(base,altura), 0.0001);	
+		}
+	        @Test
+		    public void testArearectangular() {
+		        double base =7 ;
+		        double altura=9;
+		        double expected = base * altura;
+		        assertEquals(expected, AreaCalculator.arearectangular(base,altura), 0.0001);	
+		}
+	        @Test
+		    public void testAreatrinagular() {
+		        double base =7 ;
+		        double altura=9;
+		        double expected = base * altura /2;
+		        assertEquals(expected, AreaCalculator.areatrinagular(base,altura/ 2), 0.0001);	
+		}
+	        @Test
+		    public void testAreatrinagular() {
+		        double base =4 ;
+		        double altura=6;
+		        double expected = base * altura /2;
+		        assertEquals(expected, AreaCalculator.areatrinagular(base,altura/ 2), 0.0001);	
+	        }
+	        @Test
+		    public void testAreatrinagular() {
+		        double base =10 ;
+		        double altura=12;
+		        double expected = base * altura /2;
+		        assertEquals(expected, AreaCalculator.areatrinagular(base,altura/ 2), 0.0001);	
+	        }

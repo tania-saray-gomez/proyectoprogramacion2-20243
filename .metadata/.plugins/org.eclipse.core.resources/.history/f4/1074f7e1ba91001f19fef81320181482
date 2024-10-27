@@ -1,0 +1,73 @@
+package calcular.hon.calcular_areas_junit_app;
+
+/**
+ * Hello world!
+ *
+ */
+public class App
+{
+	public static int circulo;
+	public static int cuadrado;
+	public static int rectangulo;
+	public static int triangulo;
+
+	public static void main( String[] calculararea )
+    {
+		public class App {
+		    public static void main(String[] args) {
+		        // Ejecutar los cálculos directamente
+		        System.out.println("Área del círculo con radio 5: " + AreaCalculator.areaCirculo(5));
+		        System.out.println("Área del círculo con radio 8: " + AreaCalculator.areaCirculo(8));
+		        System.out.println("Área del círculo con radio 10: " + AreaCalculator.areaCirculo(10));
+
+		        System.out.println("Área del cuadrado con lado 4: " + AreaCalculator.areaCuadrado(4));
+		        System.out.println("Área del cuadrado con lado 8: " + AreaCalculator.areaCuadrado(8));
+		        System.out.println("Área del cuadrado con lado 7: " + AreaCalculator.areaCuadrado(7));
+
+		        System.out.println("Área del rectángulo con base 4 y altura 4: " + AreaCalculator.areaRectangulo(4, 4));
+		        System.out.println("Área del rectángulo con base 8 y altura 10: " + AreaCalculator.areaRectangulo(8, 10));
+		        System.out.println("Área del rectángulo con base 7 y altura 9: " + AreaCalculator.areaRectangulo(7, 9));
+
+		        System.out.println("Área del triángulo con base 7 y altura 9: " + AreaCalculator.areaTriangulo(7, 9));
+		        System.out.println("Área del triángulo con base 4 y altura 6: " + AreaCalculator.areaTriangulo(4, 6));
+		        System.out.println("Área del triángulo con base 10 y altura 12: " + AreaCalculator.areaTriangulo(10, 12));
+		    
+		
+
+
+    }
+
+	public static int getCirculo() {
+		return circulo;
+		int resultadocirculo = multi(5,Math.PI );
+        System.out.println("area del circulo (radio=5: " + resultado areacirculo);
+	}
+
+	public static void setCirculo(int circulo) {
+		App.circulo = circulo;
+	}
+
+	public static int getCuadrado() {
+		return cuadrado;
+	}
+
+	public static void setCuadrado(int cuadrado) {
+		App.cuadrado = cuadrado;
+	}
+
+	public static int getRectangulo() {
+		return rectangulo;
+	}
+
+	public static void setRectangulo(int rectangulo) {
+		App.rectangulo = rectangulo;
+	}
+
+	public static int getTriangulo() {
+		return triangulo;
+	}
+
+	public static void setTriangulo(int triangulo) {
+		App.triangulo = triangulo;
+	}
+}

@@ -1,0 +1,40 @@
+package calcular.hon.calcular_areas_junit_app;
+
+public class calcularareas {
+		    public static void main(String[] args) {
+		 
+    }
+
+		    	   public static double calcularareasCirculo(double radio) {
+		    	       return Math.PI * Math.pow(radio, 5);
+		    	   }
+		    	}
+
+	public static void setCirculo(int circulo) {
+		App.circulo = circulo;
+	}
+
+	public static int getCuadrado() {
+		return cuadrado;
+	}
+
+	public static void setCuadrado(int cuadrado) {
+		App.cuadrado = cuadrado;
+	}
+
+	public static int getRectangulo() {
+		return rectangulo;
+	}
+
+	public static void setRectangulo(int rectangulo) {
+		App.rectangulo = rectangulo;
+	}
+
+	public static int getTriangulo() {
+		return triangulo;
+	}
+
+	public static void setTriangulo(int triangulo) {
+		App.triangulo = triangulo;
+	}
+}

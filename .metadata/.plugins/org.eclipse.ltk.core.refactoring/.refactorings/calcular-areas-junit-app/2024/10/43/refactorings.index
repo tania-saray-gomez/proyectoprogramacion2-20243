@@ -1,0 +1,20 @@
+1729541524035	Convert local variable 'testcirculo' to field
+1729541537536	Encapsulate field 'testcirculo'
+1729541549008	Convert local variable 'testcuadrado' to field
+1729541557454	Encapsulate field 'testcuadrado'
+1729541564611	Convert local variable 'testrectangulo' to field
+1729541573052	Encapsulate field 'testrectangulo'
+1729541579609	Convert local variable 'testtriangulo' to field
+1729541589408	Encapsulate field 'testtriangulo'
+1729654868686	Convert local variable 'CalcularAreas' to field
+1729654881978	Convert local variable 'circulo' to field
+1729654886466	Convert local variable 'cuadrado' to field
+1729654891126	Convert local variable 'rectangulo' to field
+1729654895178	Convert local variable 'triangulo' to field
+1729654911679	Encapsulate field 'calcularAreas'
+1729654927546	Encapsulate field 'circulo'
+1729654934892	Encapsulate field 'cuadrado'
+1729654941420	Encapsulate field 'rectangulo'
+1729654947984	Encapsulate field 'triangulo'
+1729655228418	Delete element
+1729655236919	Delete element

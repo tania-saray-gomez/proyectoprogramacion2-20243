@@ -1,0 +1,60 @@
+package calcular.hon.calcular_areas_junit_app;
+
+
+	public class calcularareas {
+
+
+	    public static double calcularCirculo(double radio) {
+	        return Math.PI * Math.pow(radio, 5); 
+	    }
+
+	    public static double calcularCuadrado(double lado) {
+	        return lado * lado;
+	    }    
+
+	    public static double calcularRectangulo(double base, double altura) {
+	        return base * altura;
+	    }
+
+	    public static double calcularTriangulo(double base, double altura) {
+	        return (base * altura) / 2;
+	    }
+	    ;
+    
+    public static void main(String[] args) {
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        System.out.println("Selecciona una operación:");
+        System.out.println("1. Calcular el área de un cuadrado");
+        System.out.println("2. Calcular el área de un rectángulo");
+        System.out.println("3. Calcular el área de un triángulo");
+        
+        int opcion = scanner.nextInt();
+        switch(opcion) {
+            case 1:
+                System.out.print("Introduce el lado del cuadrado: ");
+                double lado = scanner.nextDouble();
+                System.out.println("Área del cuadrado: " + calcularCuadrado(lado));
+                break;
+            case 2:
+                System.out.print("Introduce el largo del rectángulo: ");
+                double largo = scanner.nextDouble();
+                System.out.print("Introduce el ancho del rectángulo: ");
+                double ancho = scanner.nextDouble();
+                System.out.println("Área del rectángulo: " + calcularRectangulo(largo, ancho));
+                break;
+            case 3:
+                System.out.print("Introduce la base del triángulo: ");
+                double base = scanner.nextDouble();
+                System.out.print("Introduce la altura del triángulo: ");
+                double altura = scanner.nextDouble();
+                System.out.println("Área del triángulo: " + calcularTriangulo(base, altura));
+                break;
+            default:
+                System.out.println("Opción no válida");
+        }
+        scanner.close();
+    }
+}
+	    
+	
+	  

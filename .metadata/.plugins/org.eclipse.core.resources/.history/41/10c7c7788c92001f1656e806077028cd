@@ -1,0 +1,30 @@
+package calcular.hon.calcular_areas_junit_app;
+
+
+	public class calcularareasApp {
+
+	    public static void main(String[] args) {
+	
+	        System.out.println("Área de un círculo (radio 5): " + calcularCirculo(5));
+	        System.out.println("Área de un cuadrado (lado 4): " + calcularCuadrado(4));
+	        System.out.println("Área de un rectángulo (base 8, altura 10): " + calcularRectangulo(8, 10));
+	        System.out.println("Área de un triángulo (base 7, altura 9): " + calcularTriangulo(7, 9));
+	    }
+
+	    public static double calcularCirculo(double radio) {
+	        return Math.PI * Math.pow(radio, 5); 
+	    }
+
+	    public static double calcularCuadrado(double lado) {
+	        return lado * lado;
+	    }
+
+	    public static double calcularRectangulo(double base, double altura) {
+	        return base * altura;
+	    }
+
+	    public static double calcularTriangulo(double base, double altura) {
+	        return (base * altura) / 2;
+	    }
+	}
+	  

@@ -1,0 +1,125 @@
+package calcular.hon.calcular_areas_junit_app;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.jupiter.api.Test;
+/**
+ * Unit test for simple .
+ */	
+	public class calcularareasTest {
+	
+		@Test
+	    public void testareascirculo() {
+	        double radio = 5;
+	        double expected = Math.PI * radio * radio;
+	        assertEquals(expected, calcularareas.calcularCirculo(radio), 0.0001);
+	        
+		}
+	
+		@Test
+	    public void testareaCirculo() {
+	        double radio = 8;
+	        double expected = Math.PI * radio * radio;
+	        assertEquals(expected, calcularareas.calcularCirculo(radio,8), 0.0001);
+	      
+		} 
+	    
+		@Test
+	    public void testareasCirculo() {
+	        double radio = 2;
+	        double expected = Math.PI * radio * radio;
+	        assertEquals(expected, calcularareas.areasCirculo(radio 2), 0.0001);
+	        app=new calcularareas();
+	        
+	       
+		}
+	       
+	        @Test
+	    public void testaareaCuadrado() {
+	        double lado1 =4 ;
+	        double lado2=4;
+	        double expected = lado1 * lado2;
+	        assertEquals(expected, calcularareas.calcularareas(lado1,lado2), 0.0001);
+	    
+	        }
+	       
+	        @Test
+		    public void testareacuadrado() {
+		        double lado1 =8 ;
+		        double lado2=8;
+		        double expected = lado1 * lado2;
+		        assertEquals(expected, calcularareas.calcularareas(lado1,lado2), 0.0001);
+		        
+		    
+	        }
+	        @Test
+		    public void testaReacuadrado() {
+		        double lado1 =7 ;
+		        double lado2=4;
+		        double expected = lado1 * lado2;
+		        assertEquals(expected, calcularareasr.calcularareas(lado1,lado2), 0.0001);	
+		     
+	        }
+	        @Test
+		    public void testareaRectangular() {
+		        double base =4 ;
+		        double altura=4;
+		        double expected = base * altura;
+		        assertEquals(expected,calcularareas.calcularRectangular(base,altura), 0.0001);
+		     
+	    		
+		}
+	        @Test
+		    public void testareaRectangular() {
+		        double base =8 ;
+		        double altura=10;
+		        double expected = base * altura;
+		        assertEquals(expected,calcularareas.calcularRectangular(base,altura), 0.0001);
+		       
+		}
+	        @Test
+		    public void testarearectangular() {
+		        double base =7 ;
+		        double altura=9;
+		        double expected = base * altura;
+		        assertEquals(expected,  calcularareas.arearectangular(base,altura), 0.0001);
+		        
+		        public static double calcularAreaRectangulo(double base, double altura) {
+	    		    return base * altura;
+		}
+	        @Test
+		    public void testAreatrinagular() {
+		        double base =7 ;
+		        double altura=9;
+		        double expected = base * altura /2;
+		        assertEquals(expected, AreaCalculator.areatrinagular(base,altura), 0.0001);	
+		     
+		}
+	        @Test
+		    public void testAreatrinagular() {
+		        double base =4 ;
+		        double altura=6;
+		        double expected = base * altura /2;
+		        assertEquals(expected, AreaCalculator.areatrinagular(base,altura/ 2), 0.0001);
+		        
+		        
+	                 
+	        }
+	        @Test
+		    public void testAreatrinagular1() {
+		        double base =10 ;
+		        double altura=12;
+		        double expected = base * altura /2;
+		        assertEquals(expected, AreaCalculator.areatrinagular(base,altura/ 2), 0.0001);
+         
+	        }
+	        public void mostardatos() {
+	        	System.out.println("area de un círculo (radio 5): " + calcularCirculo(5));
+		        System.out.println("area de un cuadrado (lado 4): " + calcularCuadrado(4));
+		        System.out.println("area de un rectángulo (base 8, altura 10): " + calcularRectangulo(8, 10));
+		        System.out.println("area de un triángulo (base 7, altura 9): " + calcularTriangulo(7, 9));
+	        
+	        
+	        }
+	        
+}

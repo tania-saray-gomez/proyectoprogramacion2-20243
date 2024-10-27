@@ -1,0 +1,60 @@
+package calcular.hon.calcular_areas_junit_app;
+
+/**
+ * Hello world!
+ *
+ */
+public class App
+{
+    public static double calcularAreas;
+	public static int circulo;
+	public static int cuadrado;
+	public static int rectangulo;
+	public static int triangulo;
+
+	public static void main( String[] calculararea )
+    {
+	
+
+    }
+
+	public static double getCalcularAreas() {
+		return calcularAreas;
+	}
+
+	public static void setCalcularAreas(double calcularAreas) {
+		App.calcularAreas = calcularAreas;
+	}
+
+	public static int getCirculo() {
+		return circulo;
+	}
+
+	public static void setCirculo(int circulo) {
+		App.circulo = circulo;
+	}
+
+	public static int getCuadrado() {
+		return cuadrado;
+	}
+
+	public static void setCuadrado(int cuadrado) {
+		App.cuadrado = cuadrado;
+	}
+
+	public static int getRectangulo() {
+		return rectangulo;
+	}
+
+	public static void setRectangulo(int rectangulo) {
+		App.rectangulo = rectangulo;
+	}
+
+	public static int getTriangulo() {
+		return triangulo;
+	}
+
+	public static void setTriangulo(int triangulo) {
+		App.triangulo = triangulo;
+	}
+}

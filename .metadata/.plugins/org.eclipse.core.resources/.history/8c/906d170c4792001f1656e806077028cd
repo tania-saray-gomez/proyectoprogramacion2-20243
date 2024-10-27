@@ -1,0 +1,17 @@
+package calcular.hon.calcular_areas_junit_app;
+
+public class calcularareas {
+		    public static void main(String[] args) {
+		 
+    }
+
+		    	   public static double calcularareasCirculo(double radio) {
+		    	       return Math.PI * Math.pow(radio, 5);
+		    	   }
+		    	   public static double calcularAreaCuadrado(double lado) {
+		    		    return lado * lado;
+		    		} 
+}
+		    	
+
+	
